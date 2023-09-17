@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto&display=swap');
+
+body{
+    background-color: hsl(300, 60%, 21%);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+nav a {
+
+    color: white;
+    margin-left:20px;
+    margin-right: 20px;
+    padding-bottom: 300px;
+    text-decoration: none;
+}
+
+nav img {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -130px;
+    margin-right: 40px;
+}
+
+nav input{
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    background-color:hsl(300, 60%, 21%) ;
+}
+
+nav input + input{
+    color:hsl(300, 60%, 21%) ;
+    background-color: hsl(0, 0%, 100%)
+}
+
+nav span{
+    padding-left: 200px;
+}
+nav{
+    margin-left: 100px;
+}
